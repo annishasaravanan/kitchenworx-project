@@ -1,0 +1,25 @@
+# Global ignores
+node_modules/
+dist/
+build/
+.env
+.env.local
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.l
+yarn-error.log*
+
+# Ignore client dependencies and builds
+client/node_modules/
+
+# Ignore server dependencies and logs
+server/node_modules/
+
+
+# Ignore editor and OS-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
